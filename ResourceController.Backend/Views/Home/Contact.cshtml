@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ResourceController.Backend.Models.DeviceModel>
+
+@{
+    ViewBag.Title = "Contact";
+}
+
+<h2>Contact</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+            <span class="label label-primary">Primary</span>
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeviceNumber)
+            <span class="label label-primary">Primary</span>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeviceNumber)
+        </td>
+        <td>
+            @Html.ActionLink("Connect", "Connect", new { /* id=item.PrimaryKey */ }) 
+        </td>
+    </tr>
+}
+
+</table>

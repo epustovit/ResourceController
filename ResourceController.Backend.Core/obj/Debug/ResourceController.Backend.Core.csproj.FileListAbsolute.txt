@@ -1,0 +1,4 @@
+D:\Projects\ResourceController.Backend\ResourceController.Backend.Core\bin\Debug\ResourceController.Backend.Core.dll
+D:\Projects\ResourceController.Backend\ResourceController.Backend.Core\bin\Debug\ResourceController.Backend.Core.pdb
+D:\Projects\ResourceController.Backend\ResourceController.Backend.Core\obj\Debug\ResourceController.Backend.Core.dll
+D:\Projects\ResourceController.Backend\ResourceController.Backend.Core\obj\Debug\ResourceController.Backend.Core.pdb
